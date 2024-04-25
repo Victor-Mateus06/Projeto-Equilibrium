@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(14, 25, 54);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.profile{
+    position: absolute;
+    width: 300px;
+    padding: 30px;
+    background-color: rgb(23, 37, 65);
+    border-radius: 20px;
+    z-index: 2;
+}
+
+.profile2{
+    position: absolute;
+    width: 400px;
+    height: 650px;
+    background-color: rgb(18, 23, 45);
+    z-index: 1;
+    border-radius: 20px;
+}
+
+.profile3{
+    position: absolute;
+    width: 450px;
+    height: 700px;
+    background-color: rgb(14, 24, 48);
+    z-index: 0;
+    border-radius: 20px;
+}
+
+
+
+.conteudo img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+h3{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+.conteudo p{
+    color: rgb(163, 176, 196);
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.preco{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.preco h4{
+    color: aqua;
+    margin: 0;
+}
+.preco p{
+    font-size: 15px;
+}
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+.perfil img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid white 2px;
+}
+.perfil p{
+    margin: 0 0 0 20px
+}
+.perfil p j{
+    color: white;
+}
